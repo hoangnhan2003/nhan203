@@ -1,0 +1,137 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --main-color:#e72c08;
+    --height-header:120px;
+    --height-header-nav:40px;
+    --star-gold-color: #FFCE3E;
+}
+*/* "*" sẽ tác dụng lên tất cả các thuộc tính css trong chương trình*/{
+    box-sizing: inherit;/* inherit nó sẽ mang tính kế thừa*/
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size:62.5% /*100 % mặc định là 16px 62.5% là 10px*/
+
+}
+p{
+    font-size: 1.2rem;/* 1.2 rem = 10px*1.2*/
+    line-height: 1.6rem;/* 16px */
+    color:var(--text-color);
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto; /* để căn giữa*/
+    
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    
+    
+}
+.grid__column-2{
+    width:16.667%;
+    padding-left:5px;
+    padding-right:5px;
+}
+.grid__column-2-4{
+    width:20%;
+    padding-left:5px;
+    padding-right:5px;
+
+}
+.grid__column-10{
+    width: 83.334%;
+    padding-left: 5px;
+    padding-right:5px;
+}
+
+@keyframes fadeIn {
+    from{
+    opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes growth{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/*--Modal--*/
+.modal{
+    position: fixed;
+    top:0;
+    bottom:0;
+    right: 0;
+    left:0;
+    display: flex;
+    animation: fadeIn linear 1s;
+}
+.modal__layout{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+.modal__body{
+    
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    /* position: relative; có z-index thì ta có thể ko cần dùng position*/
+    z-index:1; /* z-index là thuộc tính ưu tiên các lớp z-index càng lớn thì lớp đó càng ở vị trí đầu tiên*/
+    border-radius: 4px;
+
+}
+.btn{
+    height: 25px;
+    width: 100px;
+    background-color: var(--main-color);
+    border:none;
+    color:var(--white-color);
+    border-radius:3px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+
+}
+.btn:hover{
+    cursor:pointer;
+}
+.btn-white{
+    height: 25px;
+    width: 100px;
+    background-color: var(--white-color);
+    border:none;
+    color:var(--text-color);
+    border-radius:3px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.btn-white:hover{
+    cursor:pointer;
+}
+.header-with-search{
+ height: calc(var(--height-header) - var(--height-header-nav));
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+}
+/*Responsive*/

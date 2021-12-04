@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Làm wep bán hàng(Ngô Hoàng Nhận)</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="base.css"> 
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+        
+    <body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar"> <!--nav viết tắt của navagation có nghĩa là dẫn đường(thường là thanh trên cùng)-->
+            <ul class="header__navbar-list">
+                <li class ="header__navbar-item header__navbar-item-boder">
+                    Vào cửa hàng trên ứng dụng
+                    <div class="header_qr">
+                    <img src="/NHAN/css/anhqrshopi.png" alt="" class="header_anhqr">
+                    <div class="header_qr-app">
+                        <a href="" class="header_qr-link">
+                        <img src="/NHAN/css/appstore.png" alt="" class="header_anhapp">
+                        </a>
+                        <a href="" class="header_qr-link">
+                            <img src="/NHAN/css/ggplay.png" alt="" class="header_anhapp">
+                        </a>
+                    </div>
+                
+                    </div>
+                </li>
+                <li class ="header__navbar-item">
+                    <span class="header__navbar-item--nopointer">Kết nối</span>
+                    <a href="https://www.facebook.com/profile.php?id=100048557560285" class="header__navbar-item-linkicon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="header__navbar-item-linkicon">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>    
+
+                </li>
+                
+            </ul>
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item header__navbar-notify">
+                    <a href="" class="header__navbar-item-link">
+                        <i class="far fa-bell"></i>
+                        Thông báo
+                    </a>
+                   <div class="header_notify">
+
+                    <header class="header_notify-header">
+                        <span class="before-notify"> </span>
+                       <h3>Thông báo mới nhận</h3>
+                    </header>
+                    <ul class="header_notify-list">
+                        <li class="header_notify-item">
+                            <a href="" class="header_notify-info">
+                                <img src="https://th.bing.com/th/id/OIP.yIqE-G9Pq3BhAqdHnIgLowHaEK?pid=ImgDet&rs=1" alt="" class="header_notify-item--img">
+                                <div class="header__notify-content">
+                                    
+
+                                    <span class="header_notify-item-body1">Tên sản phẩm   </span>
+                                    <span class="header_notify-item-body2">Thông tin sản phẩm Tên sản phẩm full name is Ngô Hoàng Nhận Tên sản phẩm full name is Ngô Hoàng Nhận</span>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li class="header_notify-item">
+                            <a href="" class="header_notify-info">
+                                <img src="https://th.bing.com/th/id/OIP.yIqE-G9Pq3BhAqdHnIgLowHaEK?pid=ImgDet&rs=1" alt="" class="header_notify-item--img">
+                                <div class="header__notify-content">
+                                    
+
+                                    <span class="header_notify-item-body1">Tên sản phẩm</span>
+                                    <span class="header_notify-item-body2">Thông tin sản phẩm</span>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li class="header_notify-item">
+                            <a href="" class="header_notify-info">
+                                <img src="https://th.bing.com/th/id/OIP.yIqE-G9Pq3BhAqdHnIgLowHaEK?pid=ImgDet&rs=1" alt="" class="header_notify-item--img">
+                                <div class="header__notify-content">
+                                    
+
+                                    <span class="header_notify-item-body1">Tên sản phẩm</span>
+                                    <span class="header_notify-item-body2">Thông tin sản phẩm</span>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li class="header_notify-item">
+                            <a href="" class="header_notify-info">
+                                <img src="https://th.bing.com/th/id/OIP.yIqE-G9Pq3BhAqdHnIgLowHaEK?pid=ImgDet&rs=1" alt="" class="header_notify-item--img">
+                                <div class="header__notify-content">
+                                    
+
+                                    <span class="header_notify-item-body1">Tên sản phẩm</span>
+                                    <span class="header_notify-item-body2">Thông tin sản phẩm</span>
+                                </div>
+                            </a>
+
+                        </li>
+                    </ul>
+                    <footer class="footer_header-notify">
+                        <a href="" class="footer_header">Xem tất cả</a>
+                    </footer>
+                   </div>
+
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link"><i class="fas fa-question-circle"></i>
+                        Trợ giúp</a>
+                    
+                   </li>
+                <!--<li class ="header__navbar-item header__navbar-item-bold header__navbar-item-boder">Đăng kí</li>
+                <li class ="header__navbar-item header__navbar-item-bold">Đăng nhập</li> -->
+                <li class="header__navbar-item header__vavbar-uesr">
+                    <img src="/NHAN/css/thu hien1.jpg" alt="" class="header__uesr-img">
+                    <span>Thu Hiền</span>
+                    <ul class="header__user-menu">
+                        <li class="header__user-item">
+                            <a href="https://www.facebook.com/profile.php?id=100009384303992">Tài khoản của tôi</a>
+                        </li>
+                        <li class="header__user-item">
+                            <a href="https://www.facebook.com/profile.php?id=100009384303992">Địa chỉ của tôi</a>
+                        </li>
+                        <li class="header__user-item">
+                            <a href="">Đơn mua</a>
+                        </li>
+                        <li class="header__user-item">
+                            <a href="">Đăng xuất</a>
+                        </li>
+                    </ul>
+                </li> 
+            </ul>
+                </nav>
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img class="header__logo-img" src="https://storage.googleapis.com/ops-shopee-files-live/live/affiliate-blog/2019/05/logo-full-white.png" alt="">
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm trong shop này">
+                            <!--Search history-->
+                            <div class="header__search-history">
+                                <h3 class="header__search-htr--heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search--list">
+                                    <li class="header__search-item">
+                                        <a href="">Sản phẩm 1</a>
+                                    </li>
+                                    <li class="header__search-item">
+                                        <a href="">Sản phẩm 2</a>
+                                    </li>
+                                    <li class="header__search-item">
+                                        <a href="">Sản phẩm 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                      <div class="header__search-selection">
+                        <span class="header__search-selec-lable">Trong Shop</span>
+                        <i class="fas fa-chevron-down"></i>
+                        <ul class="header__search-option">
+                            <li class="header__search-option-item">
+                                <span>Trong shop</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                            <li class="header__search-option-item">
+                                <span>Ngoài shop</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                        </ul>
+
+                      </div>
+                      <button class="header__search-btn-icon">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                    <div class="header__search-icon">
+                        <i class="header__search-icon-cart fas fa-shopping-cart"></i>
+                        <span class="header__search-icon--notice">3</span>
+                        <!--nocart add: header__cart-list--nocart-->
+                        <!-- <div class="header__cart-list header__cart-list--nocart">
+                            <img src="/NHAN/css/empty-cart-1.png" alt="" class="header__cart-list--nocart-img">
+                            <p>Chưa có sản phẩm</p>
+                        </div>  -->
+                        <div class="header__cart-list">
+                        <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                            <ul class="header__cart-list--ul">
+                               <li class="header__cart-list--item">
+                                   <img src="https://cf.shopee.vn/file/291467b84cf3f0b6df5b33391091a5ba_tn" alt="" class="header__cart-list-img">
+                                   <div class="header__cart-list-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Tên của sản phẩm</h5>
+                                            <div class="header__cart-info">
+                                                <span class="header__cart-item-price">2.000.000đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-quantity">3</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                        <span class="header__cart-item-discription">Thông tin sản phẩm</span>
+                                        <span class="header__cart-item-remove">Xóa </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-list--item">
+                                    <img src="https://cf.shopee.vn/file/291467b84cf3f0b6df5b33391091a5ba_tn" alt="" class="header__cart-list-img">
+                                    <div class="header__cart-list-info">
+                                         <div class="header__cart-item-head">
+                                             <h5 class="header__cart-item-name">Tên của sản phẩm</h5>
+                                             <div class="header__cart-info">
+                                                 <span class="header__cart-item-price">2.000.000đ</span>
+                                                 <span class="header__cart-item-multiply">x</span>
+                                                 <span class="header__cart-item-quantity">3</span>
+                                             </div>
+                                         </div>
+                                         <div class="header__cart-item-body">
+                                         <span class="header__cart-item-discription">Thông tin sản phẩm</span>
+                                         <span class="header__cart-item-remove">Xóa </span>
+                                         </div>
+                                     </div>
+                                 </li>
+                                 <li class="header__cart-list--item">
+                                    <img src="https://cf.shopee.vn/file/291467b84cf3f0b6df5b33391091a5ba_tn" alt="" class="header__cart-list-img">
+                                    <div class="header__cart-list-info">
+                                         <div class="header__cart-item-head">
+                                             <h5 class="header__cart-item-name">Tên của sản phẩm</h5>
+                                             <div class="header__cart-info">
+                                                 <span class="header__cart-item-price">2.000.000đ</span>
+                                                 <span class="header__cart-item-multiply">x</span>
+                                                 <span class="header__cart-item-quantity">3</span>
+                                             </div>
+                                         </div>
+                                         <div class="header__cart-item-body">
+                                         <span class="header__cart-item-discription">Thông tin sản phẩm</span>
+                                         <span class="header__cart-item-remove">Xóa </span>
+                                         </div>
+                                     </div>
+                                 </li>
+                                 <div class="header__cart-footer">
+                                     <button class="btn footer__cart">Xem giỏ hàng</button>
+                                     
+                                 </div>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </header>
+        <div class="container"> <!--container là phần thân trang-->
+            <div class="grid">
+                <div class="grid__row app-content">
+                    <div class="grid__column-2">
+                        <nav class="category">  
+                            <h3 class="category__heading">
+                                <i class="far fa-list-alt category__heading-icon"></i>
+                                Danh mục</h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link ">Sản phẩm</a>
+            
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Trang điểm môi</a>
+            
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Trang điểm mắt</a>
+            
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter-btn btn-white">Phổ biến</button>
+                            <button class="home-filter-btn btn">Mới nhất</button>
+                            <button class="home-filter-btn btn-white">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="">Giá:Cao đến thấp</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="">Giá:Thấp đến cao</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-number">1
+                                    <span class="home-filter__number">/12</span>
+                                </span>
+    
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter-switch home-filter-switch1">
+                                        <i class="fas home-filter-icon-switch fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter-switch">
+                                        <i class="fas home-filter-icon-switch fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <div class="home-product">
+                        <div class="grid__row">
+                            <div class="grid__column-2-4">
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="home-product-item-link">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/d8635542f1f111630b895ff3b8c3121a);"></div>
+                                        <h4 class="home-product-item-name">Áo Khoác Hoodie Nỉ Hình Mặt Buồn Xanh Rêu Siêu Lạ Unisex Ulzzang</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000đ</span>
+                                            <span class="home-product-item-price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item-active">
+                                            <span class="home-product-item-like home-product-item-like-liked">
+                                                <i class="far fa-heart home-product-item-icon-empty "></i>
+                                                <i class="fas fa-heart home-product-item-icon-fill"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas home-product-item-rating-star-gold fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                            </div>
+                                            <span class="home-product-item-sold">10 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item-origin">
+                                            <span class="home-product-item__brand">Hodie</span>
+                                            <span class="home-product-item__origin-name">Thành phố Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="home-product-item-favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-title">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                
+                            </div>
+                            <div class="home-product-pagination">
+                                <ul class="home-product-pagination__list">
+                                    <li class="home-product-pagination__item">
+                                        <a href="" class="home-product-pagination__link">
+                                            <i class="fas home-product-pagination__icon fa-chevron-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="home-product-pagination__item">
+                                        <a href="" class="home-product-pagination__link home-product-pagination__link-active ">1</a>
+                                    </li>
+                                    <li class="home-product-pagination__item">
+                                        <a href="" class="home-product-pagination__link">2</a>
+                                    </li>
+                                    <li class="home-product-pagination__item">
+                                        <a href="" class="home-product-pagination__link">3</a>
+                                    </li>
+                                    <li class="home-product-pagination__item">
+                                        <a href="" class="home-product-pagination__link">...</a>
+                                    </li>
+                                    <li class="home-product-pagination__item">
+                                        <a href="" class="home-product-pagination__link">10</a>
+                                    </li>
+                                    <li class="home-product-pagination__item">
+                                        <a href="" class="home-product-pagination__link">
+                                            <i class="fas home-product-pagination__icon fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+          
+
+        </div>
+        <footer class="footer"> <!--footer là chân của trang wep-->
+
+          </footer> 
+        </div>
+        <!-- Modal -->
+        <!-- <div class="modal modal1">
+            <div class="modal__layout"></div>
+            <div class="modal__body">
+                <div class="modal__inner modal__inner1">
+                    /*Authen-form*/
+                    <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Đăng ký</h3>
+                    <span class="auth-form__swithc-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+                        <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                    </div>
+                    <div class="auth-form-aside">
+                        <p class="auth-form--policy-text">Bằng việc đăng kí bạn đã đồng ý với Shoppe về
+                        <a href="" class="auth-form--policy-link">Điều khoản</a> & 
+                        <a href="" class="auth-form--policy-link">Chính sách bảo mật </a>
+                        </p>
+                    </div>
+                    <div class="auth-form__control">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn">ĐĂNG KÝ</button>
+                    </div>
+                    <div class="auth-form__link">
+                        <a href="" class="auth-form__link-fb">
+                            <i class="fab fa-facebook-square"></i>
+                            Kết nối với facebook
+                        </a>
+                        <a href="" class="auth-form__link-gg
+                        ">
+                            <i class="fab fa-google"></i>
+                            Kết nối với google
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+        </div> -->
+    </body>
+</html>
