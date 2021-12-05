@@ -1056,5 +1056,57 @@ i.home-product-item-icon-fill{
 .home-product-pagination__icon{
     color: #7c7b7b;
 }
+/*footer*/
+.footer{
+    margin-top: 10px;
+    border-top: 3px solid var(--main-color);
+}
+.footer__heading{
+    margin-top: 36px;
+    font-size: 1.6rem;
+    color: rgb(124, 124, 124);
+}
+.footer-list{
+    list-style: none;
+    padding: 0;
+}
+.footer-item{
+    margin: 8px 0;
+}
+.footer-item-link:hover{
+    color: var(--main-color);
+}
+.footer-item-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
 
+}
+.footer-item-link__icon{
+    font-size: 1.2rem;
+}
 
+.footer-download{
+    display: flex;
+}
+.footer-download__QR{
+    margin-right: 10px ;
+}
+.footer-download__qr{
+    width: 80px;
+    cursor: pointer;
+}
+.footer-download__app{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}
+.footer-download__app-chplay{
+    height: 42%;
+    cursor: pointer;
+}
+.footer-download__app-appstore{
+    height: 42%;
+    cursor: pointer;
+}
